@@ -1,0 +1,41 @@
+#container {
+    background-color: #63B3ED;
+    color: #FFFFFF;
+
+}
+
+#blogpic {
+    width: 200px;
+    height: 200px;
+    border: 2px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    font-size: 32px;
+    color: #48BB78;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+h5 {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #718096;
+}
+
+#leftimg {
+    float: right;
+    width: 42px;
+    height: 42px;
+}
+
+#rightimg {
+    float: left;
+    width: 42px;
+    height: 42px;
+}
