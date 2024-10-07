@@ -13,6 +13,8 @@
 .flex-container{
     display: flex;     
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
     background-color: #63B3ED;
     color: #FFFFFF;
 
@@ -47,8 +49,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    flex-direction: column;
-    align-content: center;
+    margin-left:auto;
 }
 
 
@@ -60,7 +61,7 @@ h1 {
 h2 {
     font-size: 32px;
     color: #48BB78;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Georgia, 'Times New Roman', Times, serif;
     
 }
 
