@@ -1,0 +1,93 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 25%; /*Creating the columns for the page*/
+    grid-template-rows: auto 1fr auto; /* Creating the rows for the page*/
+    grid-template-areas: 
+        "header header" /*Defining a header spanning both columns*/
+        "articles sidebar" /* Setting up article and sidebar spaces*/
+        "footer footer"; /*Setting up the footer space*/
+
+    gap: 10px; /* Spacing the items*/
+}
+
+.flex-container{
+    display: flex;     
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+
+}
+
+#header{
+    flex-direction: column;
+    grid-area: header;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    padding: 20px;
+}
+#articles{
+    grid-area: articles;
+    padding-left: 15%;
+    padding-right: 3%;
+}
+
+#sidebar{
+    grid-area: sidebar;
+    padding: 50px;
+}
+
+#footer {
+    grid-area: footer;
+    background-color: #2C5282;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+#blogpic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left:auto;
+}
+
+
+h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2 {
+    font-size: 32px;
+    color: #48BB78;
+    font-family:'Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+p{
+    color:#2D3748;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica
+Neue",Arial,"Noto Sans",sans-serif;
+
+}
+h5 {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #718096;
+}
+
+#leftimg {
+    float: left;
+    width: 30%;
+    height: 60%;
+    padding-right: 20px;
+}
+
+#rightimg {
+    float: right;
+    width: 30%;
+    height: 60%;
+    padding-left: 20px;
+}
