@@ -1,11 +1,11 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /*Creating the columns for the page*/
-    grid-template-rows: auto 1fr 1fr; /* Creating the rows for the page*/
+    grid-template-columns: 1fr 300px; /*Creating the columns for the page*/
+    grid-template-rows: auto 1fr 1fr auto; /* Creating the rows for the page*/
     grid-template-areas: 
         "header header" /*Defining a header spanning both columns*/
-        "article1 " /* Setting up article one space*/
-        "article2 " /* Setting up article 2 space */
+        "article1 sidebar" /* Setting up article one space*/
+        "article2 sidebar" /* Setting up article 2 space */
         "footer footer"; /*Setting up the footer space*/
 
     gap: 10px; /* Spacing the items*/
@@ -19,10 +19,33 @@
 
 }
 .article1{
-    grid-area: item1;
-    
+    grid-area: article1;
     padding: 20px;
     
+}
+.about{
+    grid-area: sidebar;
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: #E2E8F0;
+    padding: 20px;
+}
+
+.article2{
+    grid-area: article2;
+    padding: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #2C5282;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: left;
 }
 
 #blogpic {
@@ -49,13 +72,13 @@ h5 {
     color: #718096;
 }
 
-#leftimg {
+.leftimg {
     float: right;
     width: 42px;
     height: 42px;
 }
 
-#rightimg {
+.rightimg {
     float: left;
     width: 42px;
     height: 42px;
