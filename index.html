@@ -7,40 +7,88 @@
  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
- <header>
+<div class="flex-container">
+ <header id = "header">
+    <img src = "userpic.jpg" alt = "Picture of the Blog Creator" id = blogpic>
     <h1>Xenique Daize's Blog</h1>
-    <p>A Young and Talented Web Developer and User Interface Designer</p>
-    <div class="blogpic">
-        <img src = "INFO2180.jpg" alt = "Picture of the Blog Creator">
-    </div>
+    <p style="color:#FFFFFF; text-align: center;">A Young and Talented Web Developer and User Interface Designer</p>
  </header>
 </div>
 
 <div class="grid-container">
- <main>
+ <main id = "articles">
     <article>
-        <h2> The Role of Artificial Intelligence in Everyday Life: Are We Ready? /h2>
+        <h2> The Role of Artificial Intelligence in Everyday Life: Are We Ready? </h2>
         <h5> September 30, 2024 by Xenique D.</h5>
-        <p> Artificial Intelligence (AI) has transitioned from science fiction into a powerful tool that shapes various aspects of our daily routines. Whether it's through digital assistants like Siri, personalized shopping experiences on Amazon, or predictive healthcare algorithms, AI is revolutionizing how we interact with the world. Many of these innovations are designed to make life easier by automating tasks, improving efficiency, and personalizing experiences. However, with these advancements come pressing questions about privacy, security, and the ethical implications of relying so heavily on machines to make decisions for us.</p>
-        <p> While AI brings numerous benefits, the rapid pace at which it is developing has raised concerns about its long-term impact on employment and society. Job automation in industries such as manufacturing, transportation, and even customer service could lead to significant job losses, leaving millions at risk. Moreover, the ethical questions surrounding AI decision-making, such as bias in algorithms or AI's role in warfare, pose moral dilemmas that we, as a society, may not yet be ready to address. As AI continues to evolve, it is crucial for us to find a balance between technological innovation and human oversight to ensure that the future remains equitable and safe.</p>
+        <img src = "AI.jpeg" alt = "Artificial Intelligence" id = "rightimg">
+        <p> Artificial Intelligence (AI) has transitioned from science fiction into a powerful tool that 
+            shapes various aspects of our daily routines. Whether it's through digital assistants like Siri, 
+            personalized shopping experiences on Amazon, or predictive healthcare algorithms, AI is revolutionizing 
+            how we interact with the world. Many of these innovations are designed to make life easier by automating tasks, 
+            improving efficiency, and personalizing experiences. However, with these advancements come pressing questions about privacy, 
+            security, and the ethical implications of relying so heavily on machines to make decisions for us. While AI brings numerous benefits, 
+            the rapid pace at which it is developing has raised concerns about its long-term impact on employment and society. 
+        </p>
+
+        <p>
+            Job automation in industries such as manufacturing, transportation, and even customer service could lead to significant job 
+            losses, leaving millions at risk. Moreover, the ethical questions surrounding AI decision-making, such as 
+            bias in algorithms or AI's role in warfare, pose moral dilemmas that we, as a society, 
+            may not yet be ready to address. As AI continues to evolve, it is crucial for us to find a balance between technological 
+            innovation and human oversight to ensure that the future remains equitable and safe.
+        </p>
     </article>
 
     <article>
         <h2> The Psychology of Social Media: How Platforms Are Shaping Our Mental Health </h2>
         <h5> October 1, 2024 by Xenique D.</h5>
-        <p> Social media platforms, from Instagram to TikTok, have transformed the way we communicate, connect, and consume information. While they offer unprecedented access to global communities and a platform for creative expression, the psychological effects of social media are becoming increasingly concerning. Studies show that prolonged use of these platforms is linked to anxiety, depression, and increased feelings of inadequacy, especially among younger users. The carefully curated images of “perfect” lives often create unrealistic comparisons, leading to FOMO (fear of missing out) and diminishing self-worth. Despite its promise of connectivity, social media can also contribute to feelings of loneliness and social isolation.</p>
-        <p> Beyond the emotional toll, social media’s algorithms are designed to keep users engaged for longer periods, often at the cost of mental well-being. These platforms use sophisticated algorithms that prioritize content designed to trigger emotional reactions, making it hard to disengage. This constant need for validation through likes, comments, and shares fuels a cycle of addiction, contributing to stress and poor sleep quality. However, recognizing the potential harm of social media has spurred conversations around digital wellness. Setting boundaries, using apps that limit screen time, and following accounts that promote positivity are some ways individuals can regain control over their online presence and mental health.</p>
+        <img src = "media_mentalhealth.png" alt = "Social Media effects on Mental Health" id = "leftimg">
+        <p> Social media platforms, from Instagram to TikTok, have transformed the way we communicate, connect, and consume information. 
+            While they offer unprecedented access to global communities and a platform for creative expression, the psychological effects
+            of social media are becoming increasingly concerning. Studies show that prolonged use of these platforms is linked to anxiety,
+            depression, and increased feelings of inadequacy, especially among younger users. The carefully curated images of “perfect” 
+            lives often create unrealistic comparisons, leading to FOMO (fear of missing out) and diminishing self-worth. 
+        </p>
+        <p>Despite its promise of connectivity, social media can also contribute to feelings of loneliness and social isolation.Beyond 
+            the emotional toll, social media’s algorithms are designed to keep users engaged for longer periods, often at the cost of 
+            mental well-being. These platforms use sophisticated algorithms that prioritize content designed to trigger emotional reactions,
+            making it hard to disengage. This constant need for validation through likes, comments, and shares fuels a cycle of addiction,
+            contributing to stress and poor sleep quality. However, recognizing the potential harm of social media has spurred conversations
+            around digital wellness. Setting boundaries, using apps that limit screen time, and following accounts that promote positivity
+            are some ways individuals can regain control over their online presence and mental health.
+        </p>
     </article>
  </main>
 
- <aside>
- <!-- This will be your sidebar -->
+ <aside id = "sidebar">
+    <section style ="background-color: #E2E8F0;padding:10px;">
+        <h3 style = "color: #000000; font-family: Georgia, 'Times New Roman',Times, serif;"> About</h3>
+        <p> Hi, I'm Xenique, a young and talented Web Developer and User Interface Designer at UWI. </p>
+    </section>
+    <section style = "padding:10px">
+        <h3 style = "color:#2D3748;font-family:apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif; font-size: 18px;" > Social Media </h3>
+        <ul style ="padding-bottom: 10px; padding-left: 0px;list-style-type: none;"> 
+            <li> <a href = "https://x.com/xeniqued"> Twitter </a> </li>
+            <li> <a href = "https://web.facebook.com"> Facebook </a> </li>
+            <li> <a href = "https://www.instagram.com"> Instagram </a> </li>
+            <li> <a href = https://www.linkedin.com/in/xenique-daize-225982264/> LinkedIn </a> </li>
+        </ul>
+    </section>
+    <section style = "padding:10px">
+        <h3 style = "color:#2D3748;font-family:apple-system,BlinkMacSystemFont,Segoe UI,Roboto,HelveticaNeue,Arial,Noto Sans,sans-serif; font-size: 18px;"> Archives </h3>
+        <ul style ="padding-left: 0px;list-style-type: none;color:rgb(51, 190, 190)">
+            <li> June 2024</li>
+            <li> July 2024</li>
+            <li> August 2024</li>
+            <li> September 2024</li>
+            <li> October 2024</li>
+        </ul>
+    </section>
  </aside>
 
 
- <footer>
- <p>Copyright &copy; 2024, Xenique D.</p>
+ <footer id = "footer">
+ <p>Copyright &copy; 2024, Xenique Daize </p>
  </footer>
 </div>
 </body>
