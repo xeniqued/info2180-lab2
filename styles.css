@@ -1,7 +1,28 @@
-#container {
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*Creating the columns for the page*/
+    grid-template-rows: auto 1fr 1fr; /* Creating the rows for the page*/
+    grid-template-areas: 
+        "header header" /*Defining a header spanning both columns*/
+        "article1 " /* Setting up article one space*/
+        "article2 " /* Setting up article 2 space */
+        "footer footer"; /*Setting up the footer space*/
+
+    gap: 10px; /* Spacing the items*/
+}
+
+.header{
+    grid-area: header;
     background-color: #63B3ED;
     color: #FFFFFF;
+    padding: 20px;
 
+}
+.article1{
+    grid-area: item1;
+    
+    padding: 20px;
+    
 }
 
 #blogpic {
